@@ -1,9 +1,18 @@
 @import './base/reset.css';
 @import './base/variables.css';
 @import './base/fonts.css';
+@import './blocks/btns.css';
+@import './blocks/header.css';
 
+
+
+body {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: var(--font-size-small);
+    color: var(--grey-color-main);
+}
 
 .container {
-    max-width: 1440px;
+    max-width: 1366px;
     margin: 0 auto;
 }

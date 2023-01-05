@@ -2,9 +2,11 @@
     /* Colors */
     --black-color: #000;
     --white-color: #FFF;
-    --green-color-main: #01996D;
-    --gree-color-secondary: #245852;
-    --grey-color: #424242;
+    --green-color-primary: #01996D;
+    --green-color-secondary: #245852;
+    --grey-color-primary: #292929;
+    --grey-color-secondary: #424242;
+    --grey-color-light: #D6D6D6;
 
     /* Font-size */
     --font-size-small: 20px;

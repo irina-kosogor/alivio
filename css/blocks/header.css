@@ -1,0 +1,30 @@
+header {
+    border-bottom: 1px solid var(--grey-color-light);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 84px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    min-width: 40%;
+}
+
+.cta-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-menu__sign-in {
+    padding-right: 35px;
+}
+
+.cta-menu__btn {
+    padding: 13px 50px;
+}
