@@ -1,0 +1,20 @@
+.headline {
+    height: calc(100vh - 85px);
+    background: url('/images/main_background.jpg') center center/cover no-repeat;
+    padding: 175px 0 335px 0;
+}
+
+.headline-content {
+    width: 33%;
+}
+
+.headline-content__title {
+    font-size: var(--font-size-large);
+    line-height: 1.15;
+    margin-bottom: 30px;
+}
+
+.headline-content__text {
+    line-height: 1.5;
+    margin-bottom: 47px;
+}

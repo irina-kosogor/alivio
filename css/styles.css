@@ -2,7 +2,9 @@
 @import './base/variables.css';
 @import './base/fonts.css';
 @import './blocks/btns.css';
+@import './blocks/title.css';
 @import './blocks/header.css';
+@import './blocks/headline.css';
 
 
 
