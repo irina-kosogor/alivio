@@ -1,12 +1,6 @@
 .how-it-works {
+    background-color: var(--white-color-secondary);
     padding: 170px 0 50px 0;
-}
-
-.how-it-works__subtitle {
-    color: var(--grey-color-secondary);
-    font-weight: 600;
-    font-size: var(--font-size-small);
-    line-height: 1.5;
 }
 
 .how-it-works__content {
@@ -75,4 +69,8 @@
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 60px;
+}
+
+.how-it-works__step-img {
+    border-radius: 12px;
 }

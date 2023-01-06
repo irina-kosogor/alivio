@@ -4,3 +4,10 @@
     line-height: 1.5;
     color: var(--green-color-primary);
 }
+
+.subtitle {
+    color: var(--grey-color-secondary);
+    font-weight: 600;
+    font-size: var(--font-size-small);
+    line-height: 1.5;
+}

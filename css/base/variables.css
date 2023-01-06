@@ -1,7 +1,8 @@
 :root {
     /* Colors */
     --black-color: #000;
-    --white-color: #FFF;
+    --white-color-primary: #FFF;
+    --white-color-secondary: #E5E5E5;
     --green-color-primary: #01996D;
     --green-color-secondary: #245852;
     --grey-color-primary: #292929;

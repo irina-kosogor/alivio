@@ -1,0 +1,107 @@
+.our-product {
+    padding: 120px 0 168px 0;
+    min-height: 100vh;
+    background-color: var(--white-color-secondary);
+}
+
+.our-product__content {
+    display: flex;
+    justify-content: space-around;
+    gap: 86px;
+}
+
+.our-product__cards {
+    position: relative;
+    width: 55%;
+}
+
+.our-product__image {
+    width: 90%;
+    position: relative;
+    left: 10%;
+    height: 573px;
+    border-radius: 18px;
+    background: rgba(1, 153, 109, 0.2) url('/images/product_woman.png') bottom center no-repeat;
+}
+
+.our-product__card {
+    width: 296px;
+    position: absolute;
+    top: 70%;
+    right: 55%;
+    background-color: var(--white-color-primary);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
+    padding: 22px 10px 16px 10px;
+}
+
+.our-product__card-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.our-product__card-divider {
+    width: 30%;
+    height: 0.75px;
+    background-color: var(--black-color);
+    margin: 0 auto 14px auto;
+}
+
+.our-product__card-img {
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    background:  rgba(1, 153, 109, 0.2) url('/images/product_woman.png') top 30% center/125% no-repeat;
+    margin: 0 auto 12px auto;
+}
+
+.our-product__card-name {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.our-product__card-subtitle {
+    color: var(--black-color);
+    font-family: 'Georgia Bold';
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.our-product__list-item {
+    color: var(--black-color);
+    font-size: 10px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 60px;
+    position: relative;
+    margin-bottom: 16px;
+}   
+
+.our-product__list-item:before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background-color: var(--black-color);
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50px;
+    position: absolute;
+}
+
+.our-product__text {
+    width: 50%;
+}
+
+.our-product__text-title {
+    margin-bottom: 20px;
+}
+
+.our-product__text-descr {
+    color: var(--grey-color-secondary);
+    line-height: 31px;
+    margin-bottom: 40px;
+}
