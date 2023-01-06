@@ -5,13 +5,14 @@
 @import './blocks/title.css';
 @import './blocks/header.css';
 @import './blocks/headline.css';
+@import './blocks/how-it-works.css';
 
 
 
 body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
-    font-size: var(--font-size-small);
-    color: var(--grey-color-main);
+    font-size: var(--font-size-smallest);
+    color: var(--grey-color-primary);
 }
 
 .container {

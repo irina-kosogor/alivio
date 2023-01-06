@@ -15,6 +15,10 @@ header nav {
     min-width: 40%;
 }
 
+.nav-menu__link {
+    color: var(--grey-color-primary);
+}
+
 .cta-menu {
     display: flex;
     justify-content: space-between;
@@ -23,6 +27,7 @@ header nav {
 
 .cta-menu__sign-in {
     padding-right: 35px;
+    color: var(--grey-color-primary);
 }
 
 .cta-menu__btn {

@@ -9,8 +9,11 @@
     --grey-color-light: #D6D6D6;
 
     /* Font-size */
-    --font-size-small: 20px;
+    --font-size-smallest: 20px;
+    --font-size-small: 24px;
+    --font-size-small-to-medium: 30px;
     --font-size-medium: 50px;
     --font-size-large: 65px;
+    --font-size-largest: 150px;
 }
 
