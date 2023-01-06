@@ -1,0 +1,30 @@
+.success-story {
+    min-width: 100vh;
+    padding: 229px 0 176px 0;
+    background-color: var(--green-color-secondary);
+}
+
+.success-story__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.success-story__text-title {
+    color: var(--white-color);
+    margin-bottom: 35px;
+}
+
+.success-story__text-subtitle {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: var(--font-size-small);
+    line-height: 1.5;
+    margin-bottom: 57px;
+}
+
+.success-story__video video {
+    border-radius: 18px;
+    cursor: pointer;
+    width: 100%;
+}
