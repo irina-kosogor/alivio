@@ -1,5 +1,4 @@
 .success-story {
-    min-width: 100vh;
     padding: 229px 0 176px 0;
     background-color: var(--green-color-secondary);
 }
@@ -17,7 +16,11 @@
 
 .success-story__text-subtitle {
     color: var(--white-color-primary);
-    font-weight: 600;
+    /* 
+    * NOTE: font-weight: 600; is taken from Figma, but looks differently
+    * that's why it is removed from CSS 
+    */
+    /* font-weight: 600; */
     font-size: var(--font-size-small);
     line-height: 1.5;
     margin-bottom: 57px;
