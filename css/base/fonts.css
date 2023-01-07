@@ -32,12 +32,23 @@
 }
 
 @font-face {
-	font-family: 'Avenir Black';
+	font-family: 'Avenir';
 	src: url('/fonts/avenir/avenir_black-webfont.eot');
 	src: local('Avenir Black'),
 		url('/fonts/avenir/avenir_black.eot?#iefix') format('embedded-opentype'),
 		url('/fonts/avenir/avenir_black.woff') format('woff'),
 		url('/fonts/avenir/avenir_black.ttf') format('truetype');
-	font-weight: 400;
+	font-weight: 900;
 	font-style: normal;
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/poppins/Poppins-Medium.eot');
+    src: local('Poppins Medium'),
+	url('/fonts/poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/poppins/Poppins-Medium.woff') format('woff'),
+    url('/fonts/poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    }

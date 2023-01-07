@@ -15,6 +15,7 @@
 }
 
 .headline-content__text {
+    color: var(--grey-color-dark);
     line-height: 1.5;
     margin-bottom: 47px;
 }

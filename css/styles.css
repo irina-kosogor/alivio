@@ -8,7 +8,8 @@
 @import './blocks/how-it-works.css';
 @import './blocks/success-story.css';
 @import './blocks/our-product.css';
-
+@import './blocks/footer.css';
+@import './base/media.css';
 
 body {
     font-family: 'Lato', Arial, Helvetica, sans-serif;

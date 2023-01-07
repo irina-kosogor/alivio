@@ -1,0 +1,75 @@
+footer {
+    padding: 95px 0 40px 0;
+    background-color: var(--green-color-secondary);
+}
+
+.footer-content {
+    display: flex;
+    min-height: 510px;
+    max-width: 1550px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.footer-brand-name {
+    color: var(--white-color-primary);
+    font-family: 'Avenir';
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.footer-nav-menu__item {
+    margin-top: 60px;
+}
+
+.footer-nav-menu__link {
+    color: var(--white-color-primary);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.footer-social {
+    display: flex;
+    align-self: flex-end;
+    gap: 50px;
+}
+
+.footer-social_round {
+    width: 82px;
+    height: 76px;
+    border-radius: 100%;
+    box-shadow:  0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer-social__fb {
+    background: var(--white-color-primary) url('/icons/facebook.svg') center center/11px no-repeat;
+}
+
+.footer-social__instagram {
+    background: url('/icons/instagram.svg') center center/32px no-repeat, conic-gradient(from 180deg at 50% 50%, #80A4CE 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+}
+
+.footer-social__twitter {
+    background: var(--white-color-primary) url('/icons/twitter.svg') center center/32px no-repeat;
+}
+
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.footer-apps__title {
+    color: var(--white-color-primary);
+    font-family: 'Poppins';
+    font-size: var(--font-size-smallest);
+    line-height: 1.2;
+    letter-spacing: 0.005rem;
+    margin-bottom: 50px;
+}
+
+.footer-apps__wrapper > a {
+    display: inline-block;
+}
