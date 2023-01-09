@@ -4,10 +4,12 @@ footer {
 }
 
 .footer-content {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     min-height: 510px;
     justify-content: space-between;
-    margin: 0 auto;
+    
 }
 
 .footer-brand-name {
