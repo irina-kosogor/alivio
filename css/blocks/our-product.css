@@ -21,7 +21,7 @@
     left: 10%;
     height: 573px;
     border-radius: 18px;
-    background: rgba(1, 153, 109, 0.2) url('/images/product_woman.png') bottom center no-repeat;
+    background: rgba(1, 153, 109, 0.2) url('../../images/product_woman.png') bottom center no-repeat;
 }
 
 .our-product__card {
@@ -52,7 +52,7 @@
     width: 57px;
     height: 57px;
     border-radius: 100%;
-    background:  rgba(1, 153, 109, 0.2) url('/images/product_woman.png') top 30% center/125% no-repeat;
+    background:  rgba(1, 153, 109, 0.2) url('../../images/product_woman.png') top 30% center/125% no-repeat;
     margin: 12px auto;
 }
 

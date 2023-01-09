@@ -1,6 +1,6 @@
 .headline {
     min-height: calc(100vh - 85px);
-    background: url('/images/main_background.jpg') center center/cover no-repeat;
+    background: url('../../images/main_background.jpg') center center/cover no-repeat;
     padding: 175px 0 335px 0;
 }
 
